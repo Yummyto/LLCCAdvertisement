@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+console.log('✅ Vite config loaded!')
+
 export default defineConfig({
+  base: '/LLCCAdvertisement/',
   plugins: [react()],
 })
